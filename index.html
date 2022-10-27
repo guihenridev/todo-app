@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guilherme Henrique">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="imagem/svg" href="assets/img/favicon-32x32.png"/>
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body class="dark-body">
+    <header class="dark-header">
+        <div class="title">
+            <h1>Todo</h1>
+            <button class="btn-mode"><img id="img-mode" src="assets/img/icon-moon.svg"></img></button>
+        </div>
+    </header>
+    <section class="app-task">
+        <div>
+            <input type="checkbox" id="select-all-task" class="task-input-checkbox">
+            <input type="text" placeholder="Digite o nome da Tarefa" id="input-task" class="dark-input" >
+            <button class="add-new-task "> <img src="assets/img/icon-cross.svg"></button>
+        </div>
+        <div class="task-list dark-task-list">
+            <ul class="task-container">
+                <!-- <li>
+                    <div class="task-list-item">
+                        <div style="display: flex; align-items: center;">
+                            <input type="checkbox" class="task-input-checkbox check-task">
+                            <p>New Task</p>
+                        </div>
+                        <button class="delete-button"><img src="assets/img/icon-cross.svg"></img></button>
+                    </div>
+                </li> -->
+            </ul>
+            
+            <!-- <div class="footer-task">
+                <p>5 items left</p>
+                <div>
+                    <button class="all-task">All</button>
+                    <button class="active-task">Active</button>
+                    <button class="completed-task">Completed</button>
+                </div>
+                <button class="delete-task-complete">Clear Completed</button>
+            </div> -->
+        </div>
+    </section>
+    <footer>
+        <p>Todo App - Desenvolvido por <a style="color: #5881FF; font-weight: bolder;" href="http://guiwebdesigner.site/" target="_blank">Gui <span style="color: #7A7A7A; font-weight: normal;"> &lt;webdesigner/&gt;</span> </a></p>
+    </footer>
+    
+</body>
+</html>

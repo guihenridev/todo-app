@@ -1,0 +1,30 @@
+@media only screen and (max-width:630px) {
+    .title, .task-list{
+        width: 350px;
+    }
+
+    #input-task{
+        width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width:400px) {
+    .title, .task-list{
+        width: 300px;
+    }
+
+    #input-task{
+        width: 250px;
+    }
+    .footer-task button, .footer-task p{
+        font-size: 0.6rem
+    }
+    header{
+        background-image: url(../img/bg-mobile-light.jpg);
+    }
+    .dark-header{
+        background-image: url(../img/bg-mobile-dark.jpg);
+    }
+
+}
